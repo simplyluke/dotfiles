@@ -19,3 +19,6 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 autocmd vimenter * NERDTree
 
+set pastetoggle=<F2>
+noremap <F3> :set invnumber<CR>
+inoremap <F3> <C-O>:set invnumber<CR>
